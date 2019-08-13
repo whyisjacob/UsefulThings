@@ -17,7 +17,7 @@
 	 	 - Cat is a command that lets you quickly view the file. A benefit of cat is it opens, displays, and then closes the file leaving the display up. so you can move onto other commands without having to manually close the file
 		 - Less is used when you want to quickly open the file and be able to perform simple functions while the file is open. Such functions include
 		 	 - Search for text from within the file
-				 - `/ "text in quotations" + enter
+				 - `/ "text in quotations" + enter`
 			 - Quickly move to the end of the file
 			 	 - `G`
 			 - Quickly move to the beginning of the file
