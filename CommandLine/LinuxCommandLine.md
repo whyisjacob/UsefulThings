@@ -24,3 +24,6 @@
 			 	 - `gg`
 			 - Close the file
 			 	 - `q`
+ - How to unzip files 
+	 - `$ gzip -d path/to/file.txt`
+	 	 - Note: you may need to use the `sudo` command
