@@ -1,14 +1,19 @@
 # Useful Items
 ### Linux Command Line Prompt
+#### Upload/Download files from remote server
  - How to download a file from remote server using SSH
 	 - `$ ssh host 'cat /path/on/remote' > /path/on/local`
  - How to upload a file from local to remote server
 	 -  `$ scp /path/on/local username@host:/path/on/remote`
 	 - This one may only allow you to upload to the root of the remote server. After which you will have to move it to the desired location.
+#### Search contents inside a file
  - How to "Grep", or search for a file
 	 - `$ grep "information" file/path/name.txt`
+		 - To store the result of the above grep command into a file named result.txt, use this command
+		 - `$ grep "tom@anydomain.tld" /file/path/name.txt > /file/path/result.txt`
 	 - Should the file be compressed with an extension of `.gz` use the following `zgrep` command
 	 - `$ zgrep "information" file/path/name.txt`
+#### View Files
  - How to view files
 	 - There are a few different ways to view files on a server. One of the most simple ways is to use the `cat` command
 	 - `$ cat /path/to/filename.txt`
@@ -27,3 +32,10 @@
  - How to unzip files 
 	 - `$ gzip -d path/to/file.txt`
 	 	 - Note: you may need to use the `sudo` command
+#### Log Files
+ - The most important command is "tail". Tail can be used to read the last lines from a file. 
+	 - `$ tail -n 100 /file/path/mail.log`
+ - To get all newly added lines from a log file in realtime on the shell, use the command
+	 - `$ tail -f /file/path/mail.log`
+ - If you want to get the last 1000 lines from a log file and they do not fit into your shell window, you can use the command "more" to be able to view them line by line.
+	 - ` $ tail -n 1000 /file/path/mail.log | more`
