@@ -39,3 +39,7 @@
 	 - `$ tail -f /file/path/mail.log`
  - If you want to get the last 1000 lines from a log file and they do not fit into your shell window, you can use the command "more" to be able to view them line by line.
 	 - ` $ tail -n 1000 /file/path/mail.log | more`
+
+#### Bash Aliases
+ - It's useful to create aliases for commonly used commands
+	- https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
