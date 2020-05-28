@@ -46,9 +46,9 @@
 
 #### Close open ports
  - If you know what port it is
-	- `$kill -9 $(lsof -i:PORT -t) 2> /dev/null`
-	- `$kill -9 $(lsof -i:8080 -t) 2> /dev/null`
+	- `$ kill -9 $(lsof -i:PORT -t) 2> /dev/null`
+	- `$ kill -9 $(lsof -i:8080 -t) 2> /dev/null`
 #### List open processes on a port
  - If you know what port it is
- 	- `lsof -i :PORT`
-	- `lsof -i :8080`
+ 	- `$ lsof -i :PORT`
+	- `$ lsof -i :8080`
