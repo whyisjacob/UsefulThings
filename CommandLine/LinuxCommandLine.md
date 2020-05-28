@@ -43,3 +43,12 @@
 #### Bash Aliases
  - It's useful to create aliases for commonly used commands
 	- https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
+
+#### Close open ports
+ - If you know what port it is
+	- `$kill -9 $(lsof -i:PORT -t) 2> /dev/null`
+	- `$kill -9 $(lsof -i:8080 -t) 2> /dev/null`
+#### List open processes on a port
+ - If you know what port it is
+ 	- `lsof -i :PORT`
+	- `lsof -i :8080`
