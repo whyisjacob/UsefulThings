@@ -52,3 +52,5 @@
  - If you know what port it is
  	- `$ lsof -i :PORT`
 	- `$ lsof -i :8080`
+#### Use `code` to open file in Visual Studio Code
+ - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
