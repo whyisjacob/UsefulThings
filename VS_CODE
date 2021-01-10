@@ -22,3 +22,10 @@ search: `((^[^\S$]*?(?=\S)(?:.*)+$)[\S\s]*?)^\2$(?:\n)?`
 replace with: `$1`
 
 **Warning, the latter step may crash VS Code**
+
+
+## View Diff of different files
+You can diff any two files by first right clicking on a file in the EXPLORER or OPEN EDITORS list and selecting Select for Compare and then right-click on the second file to compare with and select Compare with <file_name_you_chose>.
+
+Alternatively from the keyboard hit `Ctrl (cmd) + Shift + P` and select `menu File → Compare Active File With...` and you will be presented with a list of recent files. 
+See also - https://stackoverflow.com/a/51317507/3795116
